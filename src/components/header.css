@@ -1,0 +1,16 @@
+.navbar {
+  /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+   */
+}
+.form-select {
+  width: 350px;
+  height: 50px;
+  colour: white;
+}
+.form-select:hover {
+  cursor: pointer;
+  colour: blue;
+}
+
+.a {
+}
