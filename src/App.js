@@ -4,6 +4,7 @@ import Cardsection from "./components/Cardsection";
 import ChartSection from "./components/ChartSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class App extends Component {
   constructor() {
