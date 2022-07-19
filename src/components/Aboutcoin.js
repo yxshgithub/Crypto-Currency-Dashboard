@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-// import { useState } from "react";
-// import { ModalBody, ModalHeader } from "reactstrap";
-// import { Modal } from "reactstrap";
 
 export default class Aboutcoin extends Component {
   render() {
@@ -19,7 +16,7 @@ export default class Aboutcoin extends Component {
           }}
         >
           <a
-            class="btn btn-primary"
+            className="btn btn-primary"
             href={"https://en.wikipedia.org/wiki/" + this.props.coinName2}
             // eslint-disable-next-line
             target="_blank"
@@ -39,7 +36,7 @@ export default class Aboutcoin extends Component {
             <span style={{ color: "black" }}>{this.props.coinName2}</span>
           </a>
           <button
-            class="btn btn-primary"
+            className="btn btn-primary"
             type="button"
             style={{
               // backgroundColor: "black",
@@ -58,8 +55,8 @@ export default class Aboutcoin extends Component {
             <span style={{ color: "black" }}>{this.props.coinName2}</span>
           </button>
         </div>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
+        <div className="collapse" id="collapseExample">
+          <div className="card card-body">
             <p style={{ color: "white" }}>{this.props.coininfo}</p>
           </div>
         </div>
